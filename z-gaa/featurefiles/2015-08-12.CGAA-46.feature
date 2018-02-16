@@ -1,0 +1,9 @@
+2015-08-12.CGAA-46.feature
+# Assign question to specific user
+  https://ownsourcing.atlassian.net/browse/CGAA-46
+  Features of assigner’s tools. As assigner
+  I can select the person to do the next task
+  I can do so once the previous focus is completed (e.g. research, writing or editing focuses) or I can preselect them at any point in the process. And
+  I can choose whether I assign while looking at question node (important) or I can assign while looking at the availability dashboard (i.e. the display of team members and their current workload &#8211; e.g. questions grouped by assignees).. Later considerations, not for sprint 3 demo<ul><li>determine who needs notification (which 'hats' are those notification recipients wearing)</li><li>efficiency/privacy: access does not require that others be blocked from seeing; they just need an efficient interface that lets them focus on their list of todo items</li><ul>. In other words (in case the way it was spelled out before is clearer)
+  Story stub In order to assign a question to specific users on the editorial team,
+  I can assign questions when it is ready for them to take on or in advance. So that the people involved understand what they need to work on when it is ready for them to work on it.. Current process works for the team - for reference only The manager can assign a specific researcher, writer, and editor to a question based on who is best suited to answer the particular question. The manager does not make these assignments for all new question submissions. As the question goes through the workflow process the question moves to the pre-assigned user at that stage. MVP Use Content Activity Stream with the following filters: <ul><li>Filter: type=task, admin decision=recommend, publish status=no</li><li>Group by: question</li><li>Sort by: question DESC</li><li>Operations: Assign task, Update task</li><ul>

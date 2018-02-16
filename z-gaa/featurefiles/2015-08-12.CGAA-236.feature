@@ -1,0 +1,4 @@
+2015-08-12.CGAA-236.feature
+# Allow work to be submitted in browsers other than firefox
+  https://ownsourcing.atlassian.net/browse/CGAA-236
+  Because the CMS is apparently optimized for Firefox, logging in and submitting work to the CMS from any other browser can result in an error. For example, a researcher recently used Safari from home to sign in to the CMS and upload a researcher document. What appeared to result was that the reseaerch document and information from "Mucus buildup" (the submission she was uploading a document to) was also transfered to "Sexual transmission of a yeast infection" in error. This is not the first time something similar has happened due to the use of a different web browser. It would be great that with the rebuild that the CMS was equally accessible with any web browser without error.

@@ -1,0 +1,473 @@
+# Ticket: [CGAA-2541] @allsites hompage links to "Themes of the Week" page CGAA-2541
+  Feature: Homepage link to Themes of the Week page
+    Benefit: In order to visit other recently created Theme of the week collections not featured on homepage
+    Actor: As an anonymous user
+    Action: I can click the title of the currently featured Theme of the week on the homepage or click "More Themes of the Week'
+    Outcome: Then I see the page load with the "Themes of the Week" at the top
+# Ticket: [CGAA-2539] @allsites "more polls" link on homepage CGAA-2539
+  Feature: Homepage link to Polls page
+    Benefit: In order to visit other polls not featured on homepage
+    Actor: As an anonymous user
+    Action: I can click on "more polls" under the homepage poll
+    Outcome: Then I see the page load with the "Polls" at the top
+# Ticket: [CGAA-2540] @allsites homepage "more quizzes" link CGAA-2540
+  Feature: Homepage link to Quizzes page
+    Benefit: In order to view quizzes other than those featured on the homepage
+    Actor: As an anonymous user
+    Action: I can click "more quizzes" under the featured homepage
+    Outcome: Then I see the page load with "Quizzes" at the top
+# Ticket: [CGAA-2538] @allsites "read more" link on homepage under "All about alice!" CGAA-2538
+  Feature: Homepage "read more" link to "All About Alice!" page
+    Benefit: In order to visit one the page of the site with more information about the content creators
+    Actor: As an anonymous user
+    Action: I can click on "read more" under the heading "All About Alice!" on the homepage
+    Outcome: Then I see the page load with the "All About Alice!" at the top
+# Ticket: [CGAA-2537] @allsites homepage "All about alice" link CGAA-2537
+    Benefit: In order to visit the page that will share more information about Alice! and who creates the content
+    Actor: As an anonymous user
+    Action: I can click "All about Alice!" that's linked to another page
+    Outcome: Then I see the page load with the same title at the top
+# Ticket: [CGAA-2536] @allsites homepage social media buttons CGAA-2536
+  Feature: Homepage links to Alice! social media and sharing
+    Benefit: In order to visit one of the social media accounts for Alice! Health Promotion
+    Actor: As an anonymous user
+    Action: I can click on a social media button on the homepage
+    Outcome: Then I a pop up screen asks if I wish to leave the GAA! site, and after clicking "continue" I am redirected to the particular social media account page
+# Ticket: [CGAA-2535] @allsites homepage theme Q&A links CGAA-2535
+  Feature: Homepage links to individual Q&amp;As featured in theme of the week
+    Benefit: In order to visit one of the five featured theme Q&amp;As on the homepage
+    Actor: As an anonymous user
+    Action: I can click a linked Q&amp;A title
+    Outcome: Then I see the page load with the same title at the top
+# Ticket: [CGAA-2534] @allsites recent Q&As CGAA-2534
+  Feature: Homepage link to recent Q&amp;As
+    Benefit: In order to visit one of the newest and recently updated Q&amp;As on the site
+    Actor: As an anonymous user
+    Action: I can click on "More Q&amp;As" on the homepage
+    Outcome: Then I see the page load with the "New Q&amp;As" at the top
+# Ticket: [CGAA-2533] @allsites featured homepage quizzes CGAA-2533
+  Feature: Homepage links to quizzes
+    Benefit: In order to visit one of the quizzes listed on the homepage
+    Actor: As an anonymous user
+    Action: I can click a linked quiz title
+    Outcome: Then I see the page load with the same title at the top
+# Ticket: [CGAA-2532] @allsites Voting on homepage poll CGAA-2532
+  Scenario: voting on homepage poll<br/>
+    Given I am on goaskalice.green.edu or goaskalice.columbia.edu<br/>
+    And I am not logged in<br/>
+    And I have clicked on a poll option<br/>
+    And I click the "vote" button<br/>
+    Then I see a message that my vote was recorded, the percentage of votes previously cast with each voting option, and the total votes cast thus far.
+# Ticket: [CGAA-2512] Licensee anonymous user: homepage footer webforms CGAA-2512
+    Benefit: In order to communicate with GAA! team re: liscencing, syndication, comments, corrections, and media requests
+    Actor: As an anonymous licesnsee site user
+    Action: I can click a linked webform title
+    Outcome: Then I see the page load with the same webform title at the top
+# Ticket: [CGAA-2514] Licensee anonymous user: Subscribe/Get Alice! in your Inbox CGAA-2514
+  Feature: Homepage Subscribe menu/Get Alice! in Your Box sign up webform
+    Benefit: In order to sign up to receive the weekly GAA! email message
+    Actor: As an anonymous licensee user
+    Action: I can click a linked "Get Alice! in Your Box" item
+    Outcome: Then I see the webform page load with the same title at the top
+# Ticket: [CGAA-2528] Central site management of adding licensee users CGAA-2528
+  Feature: Manage users tool
+    Benefit: In order to add/edit/block/delete licensee users
+    Actor: As a logged in central site manager to the licensee site
+    Action: I can click "manage users" on the licensee site
+    Outcome: Then I see the page load with the same title at the top
+# Ticket: [CGAA-2529] Central site management of licensee editing user roles CGAA-2529
+  Scenario: editing licensee user roles
+# Ticket: [CGAA-2531] Central site management of blocking licensee users CGAA-2531
+  Scenario: blocking licensee user account
+# Ticket: [CGAA-2530] Central site management of licensee deleting user roles CGAA-2530
+  Scenario: deleting licensee user account
+# Ticket: [CGAA-2527] General site function story: Returning to homepage from any other site page CGAA-2527
+  Feature: Link to return to homepage
+    Benefit: In order to return to the GAA! homepage from any other page
+    Actor: As an anonymous user
+    Action: I can click the linked GAA! logo on the upper left hand corner on any page
+    Outcome: Then I see the page load with the homepage content
+# Ticket: [CGAA-2526] Licensee site user story: consolidate licensee site question submissions CGAA-2526
+  Kay — I added your language here, since it's more specific than my own.
+# Ticket: [CGAA-2524] Licensee logged-in user: Deleting local resource CGAA-2524
+  Feature: Delete local resource for licensee site
+    Benefit: In order to remove one of 5 entries for local resources for licensee sites
+    Actor: As an logged in licensee user
+    Action: I can click on "delete this local resource"
+    Outcome: Then I see the page load with a question prompt: "Are you sure you want to delete
+# Ticket: [CGAA-2523] Licensee logged-in user: Changing user password CGAA-2523
+  Feature: Ability to change user password
+    Benefit: In order to update password after initial log in permissions granted from Columbia
+    Actor: As an logged-in licensee user
+    Action: I can click "edit" under user name
+    Outcome: Then I see the page load with the form to enter current password, enter/confirm new password, and save
+# Ticket: [CGAA-2522] Licensee logged-in user: Editing local resources CGAA-2522
+  Feature: Editing local resources
+    Benefit: In order to add information about and display local resources on anonymous view of licensee site
+    Actor: As an logged in licensee user
+    Action: I can click on "edit this information" associated with a given resource type
+    Outcome: Then I see the page load with the "edit local resource
+# Ticket: [CGAA-2521] Scenario: logging in to licensee GAA! site CGAA-2521
+# Ticket: [CGAA-2520] Licensee anonymous user: custom licensee site URL CGAA-2520
+  Feature: Licensee university-specific GAA! URL
+    Benefit: In order to visit a specific licensee GAA! site
+    Actor: As an anonymous licensee site user
+    Action: I can type "goaskalice.&#91;university name&#93;.edu
+    Outcome: Then I see the page load with the licensee-specific GAA! site for that university
+# Ticket: [CGAA-2519] Licensee anonymous user: homepage "About Alice!" menu CGAA-2519
+  Feature: Homepage "About Alice!" menu
+    Benefit: In order to visit site pages on the site specific to the history, reader feedback, awards, and creators of the GAA! site
+    Actor: As an anonymous licensee user
+    Action: I can click the "About Alice!" menu
+    Outcome: Then I see the drop down menu with "All About Alice!", "Go Ask Alice! History", "Rants &amp; Raves", and "FAQs" options/pages
+# Ticket: [CGAA-2518] Licensee anonymous user: homepage "Find Help" menu CGAA-2518
+  Feature: Homepage "Find Help" menu
+    Benefit: In order to visit pages with local emergency and on campus resources
+    Actor: As an anonymous licensee site user
+    Action: I can click the "Find Help" menu
+    Outcome: Then I see the drop down menu with "In an emergency" and "On-campus resources" options/pages
+# Ticket: [CGAA-2517] Licensee anonymous user: Quizzes homepage menu CGAA-2517
+  Feature: Homepage Quizzes menu
+    Benefit: In order to visit the quizzes or polls pages
+    Actor: As an anonymous licensee site user
+    Action: I can click on the Quizzes menu
+    Outcome: Then I see the drop down menu with the "polls" and "quizzes" listed
+# Ticket: [CGAA-2516] licensee anonymous user: homepage health answers menu CGAA-2516
+  Feature: Homepage Health Answers menu
+    Benefit: In order to visit Q&amp;As organized under the meta categories, themes, and fact sheets
+    Actor: As an anonymous licensee user
+    Action: I can click the Health Answers menu
+    Outcome: Then I see the drop down menu with the Q&amp;A meta categories, themes, recent Q&amp;As, and fact sheet
+# Ticket: [CGAA-2515] Licensee anonymous user: homepage logo/link to licensee univ homepage CGAA-2515
+  Feature: homepage logo/link to licensee univ homepage
+    Benefit: In order to visit licensee university homepage from GAA! licensee siteone of the five New Q&amp;As listed on the homepage
+    Actor: As an anonymous licensee site user
+    Action: I can click a linked licensee university logo at the top right hand corner of the homepage
+    Outcome: Then I see the page load with the licensee university main homepage
+# Ticket: [CGAA-2513] Licensee anonymous user: homepage "visit our Emergency page" link in footer CGAA-2513
+  Feature: Homepage "visit our Emergency page" link to "In an emergency" page
+    Benefit: In order to visit page with emergency resource information
+    Actor: As an anonymous licensee site user
+    Action: I can click a linked "visit our Emergency page" link in the footer of the homepage
+    Outcome: Then I see a page load with the "In an emergency" title at the top CGAA-2499
+  Feature: Homepage poll on Internet Explorer
+    Benefit: Allow users to interact with content in a different way (other than Q&amp;As)
+    Actor: As an anonymous user
+    Action: I can click on a radio button next to the option I choose and click "vote" at the bottom of the poll to record.
+    Outcome: the vote is saved and the percentages of submitted votes from other anonymous users for each individual option in poll submitted displays
+# Ticket: [CGAA-2506] USER STORY: Viewing local resources on Q&A pages (Licensee) CGAA-2506
+  Feature: Resource links on Licensee site Q&amp;A pages
+    Benefit: In order to find local resources to the licensee location
+    Actor: As an anonymous user on the licensee site
+    Action: I can click a linked local resource
+    Outcome: Then I see the page displaying information added re: selected resource
+# Ticket: [CGAA-2505] USER STORY: Viewing Licensee site fact sheets CGAA-2505
+  Feature: Fact sheets menu on Licensee site
+    Benefit: In order to view one of the fact sheets (either with no local resources, or specific local resources) on the Fact Sheet submenu
+    Actor: As an anonymous user on the Licensee site
+    Action: I can click on the Fact Sheet menu and select one of the fact sheets listed
+    Outcome: Then I view the selected fact sheet (either with no local resources, or specific local resources)
+# Ticket: [CGAA-2504] USER STORY: Viewing local resources on Licensee site CGAA-2504
+  Feature: "Find Help" menu on Licensee site
+    Benefit: In order to view licensee local resources
+    Actor: As an anonymous user to the licensee site
+    Action: I can click on the "Find Help" menu and then click on either "In an Emergency" or "On-campus Resources"
+    Outcome: Then I see resources specific to my licensee campus/location
+# Ticket: [CGAA-2503] USER STORY: Adding award images on All About Alice! page CGAA-2503
+  Feature: Add images to stylized basic page
+    Benefit: To successfully post images associated with awards in desired fashion on All About Alice!
+    Actor: As a logged in user with Manager permissions
+    Action: I can upload and add images to field in All About Alice! basic page
+    Outcome: Then I see the desired images when viewing the site as an anonymous user
+# Ticket: [CGAA-2502] USER STORY: Viewing All About Alice! award images CGAA-2502
+  Feature: Awards images on All About Alice! page
+    Benefit: In order to view images of awards one of the five New Q&amp;As listed on the homepage
+    Actor: As an anonymous user
+    Action: I can scroll down to the bottom of the All About Alice! page to the awards images
+    Outcome: Then I see the awards images at the bottom of the page CGAA-2501
+  Feature: Menu link to top navigation menus on mobile site
+    Benefit: In order to visit any of the top navigation menus (and content listed within) using a mobile version of the site
+    Actor: As an anonymous user
+    Action: I can click on a menu to reveal sub menus
+    Outcome: Then I can navigate through various menus and content on the site CGAA-2500
+  Feature: Link to create poll
+    Benefit: In order to create weekly poll
+    Actor: As a logged in user with Manager level permissions
+    Action: I can click a linked tool titled "poll"
+    Outcome: I can see the page be redirected to poll creation tool CGAA-2497
+  pull requests:
+# Ticket: [CGAA-2416] Need outline of tools/dashboards associated with what roles CGAA-2416
+  because roles are changing, please provide a list of active roles (there are a number that are holdovers from the D6 site that likely do nothing) and the tools that display with each. This will be key for the person assigning roles.
+# Ticket: [CGAA-200] Notify users of new workflow assignments via email not Dashboard CGAA-200
+  As a Writer, I work off-site and am not in the CMS daily to check my queue. I am unaware when a new assignment has been added to my queue. One writer suggested that an email notification be sent when a new assignment has been added to their queue. CGAA-209
+  As a manager, I am able to stage the homepage publish by... CGAA-375
+# Ticket: [CGAA-1440] As a manager, I need to have the ability to edit the title of a question. I do not currently have that capability. CGAA-1440
+  I need to change the title of this question! There are times where the titles submitted by anonymous users are not adequately descriptive, like this example. CGAA-372
+# Ticket: [CGAA-205] Writer needs to upload supplemental documents CGAA-205
+  As a writer, I may need to upload a supplemental document to the CMS if I have reviewed the research document on file and find an additional source of information that helps me formulate an appropriate response to the question.
+# Ticket: [CGAA-207] Manager needs to upload a supplemental document CGAA-207
+  As a manager, I may upload a supplemental document to the CMS if I am reviewing a newly edited response (or an edited update to a published response) and see that it needs additional information or content added. The supplemental doc will reflect
+# Ticket: [CGAA-371] Site visitor takes a poll then views results CGAA-371
+# Ticket: [CGAA-2314] licensee determines which resources appear on the licensee site CGAA-2314
+  licensees can add up to 6 licensee resources (aka services, aka local resources) CGAA-398
+  As a content publisher on the GAA site
+# Ticket: [CGAA-2042] Submission conversion from question to comments & corrections successful. CGAA-2042
+  Text remained unchanged in conversion. CGAA-129
+# Ticket: [CGAA-439] Question admin determines if question is appropriate CGAA-439
+# Ticket: [CGAA-2040] Converting reader response to collaboration request successful CGAA-2040
+  There was no loss of text from original submission and could easily be found in the collaboration request (reader input) submissions.
+# Ticket: [CGAA-264] Reader input: submit, categorize, address CGAA-264
+# Ticket: [CGAA-1745] Not all recommended questions get published CGAA-1745
+  As a manager reviewing recommended questions
+# Ticket: [CGAA-331] Review new question submissions (was question admin queue) CGAA-331
+# Ticket: [CGAA-1823] queue administrators request manager input CGAA-1823
+  As q.admin, I can comment on a newly submitted question before I make a decision. As long as I indicate I'm still working on this task, the question stays in my queue (regardless of other field values, even an admin decision). My comment and any CGAA-395
+# Ticket: [CGAA-1743] Add progress notes as I work on a question CGAA-1743
+# Ticket: [CGAA-1742] Review of Progress messages on a question CGAA-1742 CGAA-1744
+  As a manager of the Alice! team
+# Ticket: [CGAA-20] Add comment before advancing a question to the next step in the process CGAA-20
+# Ticket: [CGAA-1687] Edit live content across all sites, both central and licensees CGAA-1687
+  As a live content editor,
+# Ticket: [CGAA-324] Site visitor adds their own response to questions CGAA-324 CGAA-218
+  feature: display timestamp on homepage
+# Ticket: [CGAA-790] timestamp(s) in footer of selected pages CGAA-790
+  as a web server CGAA-25
+  As an editor, I can set and modify the review date when I publish a question, so that the team knows when to review it again.
+# Ticket: [CGAA-211] Examples of supplemental documents from various roles CGAA-211
+  I am still looking for one from the writer's perspective, but essentially, they look a lot alike. What I did not capture here is when a researcher uploads a .pdf in the supplemental document area in a submission because they cannot copy and paste CGAA-164
+  scenario: new quiz
+# Ticket: [CGAA-1460] handling dates when only the year is meaningful CGAA-1460
+  As a researcher, sometimes the only "last reviewed" date I can find is a year, but no month or date. Its important for me to be able to put in what information I can though.
+# Ticket: [CGAA-365] Preview of home page scheduled for publication CGAA-365 CGAA-15
+# Ticket: [CGAA-1163] RE: Historical fields in submission to preserve — "NID (Assigned submission ID)" CGAA-1163
+  As a manager (and as a researcher and writer) I regularly reference the NID (Assigned submission ID) to help me recognize the submission I'm working on. Since question title change from time to time, It's helpful to have a constant element (like
+# Ticket: [CGAA-1164] RE: Historical fields in submission to preserve — "Originally Published date" CGAA-1164
+  As a manager, for record keeping purposes, it's helpful to know the originally published date. Will this be migrated over as historical information? The manager doesn't use it as often, (and at times, there have been errors in the current system
+# Ticket: [CGAA-1165] RE: Historical fields in submission to preserve — " document uploads" CGAA-1165
+  As a manager or researcher (and to a degree the editors and writers) frequently reference the uploads within a given submission. This is particularly critical to the workflow process and to updated questions as managers can see when the last time
+# Ticket: [CGAA-1158] RE: Historical fields in submission to preserve — "Previous comments" CGAA-1158
+  As a manager, I am able to inform decisions and actions to take on a given submission based on user generated comments within the submission. In this example, an error occcured in the system and a user labeld this submission as a bug. This is CGAA-910
+  As an anonymous visitor
+# Ticket: [CGAA-688] while browsing for related questions, can flag a question that needs to be updated CGAA-688
+  As an EDT member, while browsing for related questions, can flag a question that needs to be updated
+# Ticket: [CGAA-687] As a researcher looking at related questions that inform the research effort, I can add comments about the relationship CGAA-687
+  As a researcher looking at related questions that inform the research effort,
+# Ticket: [CGAA-1098] Redirect urls from previous versions of the site CGAA-1098
+  As a repeat visitor (including search engine crawlers)
+# Ticket: [CGAA-1080] As an editor, I can confirm that my change was made after clicking on "see changes here" in progress, and viewed revision report. CGAA-1080
+  This looks good! CGAA-829
+  As an anonymous user visiting the site CGAA-880
+  Feature: display of categories to a site visitor CGAA-445
+  As an anonymous visitor to the Go Ask Alice! site
+# Ticket: [CGAA-795] find informative nodes and relate them to Questions CGAA-795
+  as an Alice! team member performing research
+# Ticket: [CGAA-774] Task assigner/expediter can determine path a question has taken CGAA-774
+  As a task assigner/expeditor
+# Ticket: [CGAA-724] As a registered user I can understand why others consider a section of text(esp. research) important CGAA-724
+  As a registered user I can understand why others consider a section of text(esp. research) important
+# Ticket: [CGAA-723] As a researcher/writer/editor/manager I can modify any aspect of a question CGAA-723
+  As a researcher/writer/editor/manager I can modify any aspect of a question except others discussion contributions
+# Ticket: [CGAA-722] As a registered user editing or viewing a question I can see the current workflow status and assignment so that I am aware of its progress relative to completion CGAA-722
+  As a registered user editing or viewing a question I can see the current workflow status and assignment so that I am aware of its progress relative to completion (being published)
+# Ticket: [CGAA-721] As a registered user I can see the discussion that relates to my focus CGAA-721
+  As a registered user I can see the discussion that relates to my focus
+# Ticket: [CGAA-720] As a Research/Writer/Editor/Manager I can participate in a discussions around a question (and don’t want pesky workflow notes (log) in my way) CGAA-720
+  As a Research/Writer/Editor/Manager I can participate in a discussions around a question (and don’t want pesky workflow notes (log) in my way)
+# Ticket: [CGAA-719] As a registered user I can see all notes from team members on a question in order to maintain consistency across the site (common voice) CGAA-719
+# Ticket: [CGAA-718] As a Research/Writer/Editor updating(cloning) a question I can refer back to discussion from the original to fully understand it before beginning work on the updated version. CGAA-718
+# Ticket: [CGAA-717] As a Trainer/Trainee, I can read through the entire question process to understand how to properly contribute/improve contributions. CGAA-717
+# Ticket: [CGAA-716] As a Research/Writer/Editor, I can quickly skim through all past notes from team members so as to gain the full context and intended direction of the question before making my next contribution. CGAA-716
+# Ticket: [CGAA-715] As a registered user I can distinguish between cultural and mechanical considerations of the writing when I enter/view it CGAA-715
+# Ticket: [CGAA-713] As a registered user, I can quickly see NEW discussion items on a question (where multiple threads may be active) CGAA-713 CGAA-693 CGAA-739
+# Ticket: [CGAA-643] Researcher adds date as year or month/year CGAA-643
+  As a researcher adding last updated date for research I am using
+# Ticket: [CGAA-641] EDT member looking for cultural currency CGAA-641
+  As a member of the editorial team CGAA-642
+  As an auditor of the GAA Q&amp;As defending the university in legal matters CGAA-640
+  As a reviewer of the research CGAA-608
+  Who populates this? There's no indication who made the previous comment. As someone doing the editing, I want to know the researchers conclusiongs from the cited research.
+# Ticket: [CGAA-593] As a researcher, it's nice to have the ability to see a small preview of the submissions in my queue to work on. It's also nice to be able to filter through all of my submissions to organize them. CGAA-593
+  Like this layout!
+# Ticket: [CGAA-592] As a writer, I might find it confusing to have both of these text boxes available to me to inform the response I'd write. CGAA-592
+  They are too similar in their description that it's likely it woudl be more helpful to collapse the "Conclusions drawn from cited research" and "Summary of all reserach" into "Researcher's Overall Conclusions" and place it where the "Conclusions
+# Ticket: [CGAA-591] As a writer, it'd be great to see a "printer friendly version" of the research, rather than having editable text boxes with the research information in them. CGAA-591
+  Could this part of the "supporting materials" be in a printer friendly/word document format that cannot be edited by a writer? They have no need to edit the research that's been compiled the the researcher; they only need to be able to read it and CGAA-498
+  As an editorial team member reviewing question submissions CGAA-444
+  mentioned in initial kickoff
+# Ticket: [CGAA-441] Manager can select a time for an answered question to go live (published) CGAA-441
+  line 78 of
+# Ticket: [CGAA-443] anonymous should not see the question.log (the revision log message) CGAA-443
+# Ticket: [CGAA-440] manager determines if question is appropriate CGAA-440 CGAA-438
+  example:
+# Ticket: [CGAA-401] All reader responses are linked to the Q&A CGAA-401
+  As an anonymous visitor,
+# Ticket: [CGAA-400] Users will be specific to each licensee site CGAA-400
+  Ad a site admin of a Go ask Alice! licensee site CGAA-402
+  As an anonymous visitor,
+# Ticket: [CGAA-396] All Go Ask Alice sites are fundamentally identical CGAA-396
+  All publicly reachable aspect of Go Ask Alice site(s) is identical across all instances. Only base urls, the institution logo, content within local references, and local users may differ. CGAA-394
+  As a content editor of a licensee's site
+# Ticket: [CGAA-329] administrator has access to D7 homepage content history CGAA-329
+  As an administrator of the site
+# Ticket: [CGAA-328] administrator has access to D6 homepage content history CGAA-328
+  As an administrator of the site
+# Ticket: [CGAA-338] Editorial team can manage licensee urls, users, etc. CGAA-338
+  As an editorial team member, I have a clear process for adding / confirming / modifying / removing components that fulfill a licensing agreement
+# Ticket: [CGAA-292] reliably roll out to up to 50 institutions, maintain CGAA-292
+  deployment strategies in regards to roll out and maintenance
+# Ticket: [CGAA-274] GAA licensee can add re-usable local links CGAA-274
+  As a GAA licensee CGAA-122
+  As GAA I maintain complete control over GAA content
+# Ticket: [CGAA-350] Columbia's primary care links electronic health record CGAA-350
+  As Columbia's primary care service [&#91;role e.g. patient education coordinator&#93;]
+# Ticket: [CGAA-276] Search for related Q&As returns published content CGAA-276
+  As an anonymous site user using the search function
+# Ticket: [CGAA-254] Change content causing errors in current site CGAA-254
+  As a manager, I've encountered errors with questions where the content of the submisions (research documents, writer document, edited documents, etc) get switched within the CMS. CGAA-251
+  As a person using any internet browser with &gt; 20% of the market share or using Internet Explorer &gt;= 10, I can access the GAA site and perform all functionality available to an anonymous user.
+# Ticket: [CGAA-547] Question associated with multiple categories CGAA-547
+  As a editorial team member
+# Ticket: [CGAA-181] Administrator chooses quizzes to display in Quick Quiz block CGAA-181
+  As an administrator of the Go Ask Alice website I would like to choose which quick quizzes to display in the Quick Quiz section on the home page CGAA-165
+  As a GAA admin CGAA-197
+  Story - As a content creator I can write with a desktop text editor and submit it to the Drupal site. I need to embed links and bullets
+# Ticket: [CGAA-180] Quizzes question types include multiple choice and true/false questions CGAA-180
+  As an administrator of the Go Ask Alice website I would like to include multiple choice and true/false questions to quick quizzes on the site
+# Ticket: [CGAA-359] Anonymous user subscribes to updates from goaskalice CGAA-359
+# Ticket: [CGAA-374] Site visitor views scrolling list of raves CGAA-374
+# Ticket: [CGAA-193] Site visitor uses social media on the GAA site CGAA-193
+# Ticket: [CGAA-282] Site visitor accesses Health information sheets CGAA-282
+# Ticket: [CGAA-190] Site visitor uses themes to view related questions CGAA-190
+# Ticket: [CGAA-178] Anonymous user gets immediate results of quiz they take CGAA-178
+# Ticket: [CGAA-177] Site visitor takes quiz to assess knowledge CGAA-177
+# Ticket: [CGAA-194] Provide a warning that the user is leaving the site before accessing external websites CGAA-194
+# Ticket: [CGAA-219] Reader views snippets of answer using search CGAA-219
+# Ticket: [CGAA-192] Site visitor prints a hard copy of a Q&A CGAA-192 CGAA-191
+# Ticket: [CGAA-325] Site visitor views other reader responses CGAA-325 CGAA-376 CGAA-290
+# Ticket: [CGAA-316] Accessibility concerns around spam control CGAA-316 CGAA-373
+# Ticket: [CGAA-280] Two users don't simultaneously edit a node CGAA-280
+  As a member of the editorial team
+# Ticket: [CGAA-333] Summary of research displayed prominently on question CGAA-333 CGAA-465
+  As an anonymous site visitor
+# Ticket: [CGAA-83] The text of reader questions goes through revision CGAA-83
+  We know Alice's answers go through research and revisions. Do you need to be able to track changes to the text of questions, as well? CGAA-270
+  As a member of the editorial team completing my work directly in the browser
+# Ticket: [CGAA-236] Allow work to be submitted in browsers other than firefox CGAA-236
+  Because the CMS is apparently optimized for Firefox, logging in and submitting work to the CMS from any other browser can result in an error. For example, a researcher recently used Safari from home to sign in to the CMS and upload a researcher
+# Ticket: [CGAA-269] Use in-place editing for relationship between questions, answers and research CGAA-269
+  In place editing let's interns see things in context without needing to navigate between content types. Reduces training needed for interns CGAA-111
+  As a researcher, I can write a new piece of research and associate it with one or more Reader question(s).
+# Ticket: [CGAA-189] Researcher needs to upload supplemental documents CGAA-189
+# Ticket: [CGAA-108] Researcher starts discussion around a question CGAA-108
+  As a researcher I want to start a discussion around a question that has been assigned to me.
+# Ticket: [CGAA-332] Writer compares their edits to the final version CGAA-332
+  As a writer
+# Ticket: [CGAA-285] Editorial team members can get more information on changes made CGAA-285
+  As a member of the editorial team CGAA-413
+  As a member of the editorial team who is updating a question
+# Ticket: [CGAA-284] Editorial team member can view entire picture around a question CGAA-284
+  As a member of the editorial team
+# Ticket: [CGAA-405] Editorial team members can know if answer is up-to-date regarding related researches CGAA-405
+  As a member of the editorial team
+# Ticket: [CGAA-430] Indicate that reader input has been addressed CGAA-430
+  As the user responsible for making sure reader input, excluding reader responses, is addressed CGAA-368 CGAA-367
+# Ticket: [CGAA-366] Content selected for home page publishing CGAA-366
+# Ticket: [CGAA-340] Member of editorial team can view content by status CGAA-340
+  As a member of the editorial team going to my list of nodes
+# Ticket: [CGAA-339] Member of editorial team gives one word status CGAA-339
+  As a member of the editorial team CGAA-313
+# Ticket: [CGAA-334] Manager can view when workflow emails were sent CGAA-334
+  As a manager
+# Ticket: [CGAA-364] Distinguish between original assignment and re-assignment CGAA-364 CGAA-369
+# Ticket: [CGAA-206] Editor needs to upload supplemental documents CGAA-206
+  As an editor, I may upload a supplemental document to the CMS if I am reviewing a newly written response (or an update to a published response) and see that it needs additional information or content added. The supplemental doc will reflect the
+# Ticket: [CGAA-105] Editor sends question back to manager for review and publish CGAA-105
+  As an editor in the workflow process once I have finished with a question I can assign the question back to the manager for review
+# Ticket: [CGAA-104] Writer assigns question to next stage or back to manager for review CGAA-104
+  As a writer in the workflow process I can indicate that the writing is complete or I can send the question back to the manager for review or for clarification
+# Ticket: [CGAA-103] Researcher assigns question to next stage or back to Manager CGAA-103
+  As a researcher in the workflow process I can indicate that the research process is complete or I can send the question back to the manager for review or for clarification CGAA-210
+# Ticket: [CGAA-77] Any team member can assign tasks to any other team member or leave blank CGAA-77
+  Setting workflow up so that anyone can assign to a specific person; alternatives appear to create bottlenecks with transitions, so we recommend not restricting this field with permissions and dealing with its use as a 'working agreement'
+# Ticket: [CGAA-261] Researcher needs to work through revisions CGAA-261
+  As a researcher CGAA-36
+  &#8212; original description from Amanda &#8212; CGAA-30
+  As a member of the editorial team, I want to be able to unpublish a reader response without deleting it, so that it is no longer visible under the parent question, but is retained in the CMS. CGAA-127
+  As an editor I need to be alerted when a question needs to be reviewed CGAA-353 CGAA-347
+# Ticket: [CGAA-139] Manager marks updated question as needs more work CGAA-139
+  As a manager receiving an updated question
+# Ticket: [CGAA-131] Revisions to published answers are not published until reviewed CGAA-131
+  As someone adding a revision to a published answer CGAA-31
+  useful to understand why CGAA-186
+# Ticket: [CGAA-320] Reader response user publishes reader responses CGAA-320
+  As a user with the reader response role
+# Ticket: [CGAA-319] Reader response user edits reader responses CGAA-319
+  As a user with the reader response role
+# Ticket: [CGAA-204] Researcher uploads supplemental document CGAA-204
+  As a researcher, I may need to upload a supplmental document to the CMS for two reasons: either the source I'm referring to in my research document cannot be copied and pasted (like some .pdf files) OR I am uploaded an additional research document
+# Ticket: [CGAA-357] Editorial team member requests manager's input CGAA-357
+# Ticket: [CGAA-283] manager determines productivity of editorial staff CGAA-283
+  As a manager
+# Ticket: [CGAA-102] Manager decides if question should be answered CGAA-102
+  As a manager in the workflow process I can assign questions that should be answered and archive or delete the others
+# Ticket: [CGAA-354] Question automatically moves to assigned user CGAA-354
+  Upon step completion, a question with an assignment at the next workflow stage will be moved into that user's queue when the current workflow stage is marked as completed CGAA-310
+  As a question admin or a manager CGAA-23
+  As a question administrator or a manager CGAA-101
+  As a question admin or manager in the workflow process CGAA-291 CGAA-420
+  As a member of the editorial team working through my workflow queue
+# Ticket: [CGAA-361] Task assigner/expediter can determine availability & capacity CGAA-361
+# Ticket: [CGAA-275] Manager makes changes without going through workflow again CGAA-275 CGAA-12
+  As a user of the system, in order to track the status of a reader question, I receive a notification.
+# Ticket: [CGAA-346] access/visibility: efficiency versus privacy etc. CGAA-346
+# Ticket: [CGAA-344] Read question, summaries of work before taking next steps CGAA-344
+# Ticket: [CGAA-318] Reader responses are reviewed and published CGAA-318
+  As a graduate student with the ability to work on reader responses
+# Ticket: [CGAA-82] Publish updates to questions (review process) CGAA-82
+  As manager, choose to publish/unpublish a question and re-queue for review CGAA-106
+  As a manager in the workflow process I can choose to publish a question CGAA-46 CGAA-26
+  As a manager CGAA-32 CGAA-27
+# Ticket: [CGAA-363] Indicate intent for content, progress, etc. CGAA-363 CGAA-343 CGAA-689
+  As an Alice team member, CGAA-481
+  As a researcher writing my findings CGAA-360
+# Ticket: [CGAA-356] Evaluate anonymously submitted form values CGAA-356 CGAA-24
+  As a manager, I can re-order, sort, and view questions in a way that reflects their relative priorities, so that my team and I can work effectively. CGAA-391
+  As an anonymous site visitor viewing a Q&amp;A CGAA-140 CGAA-115
+# Ticket: [CGAA-589] As a writer, I might also want to leave comments about the response rather than the research. CGAA-589
+  Is this a static title in the Discussion feature? Does it capture all of the types of coments that could be logged in this feature? Universally, it could be used by the researcher/writer/editor/manager roles for a variety of reasons.
+# Ticket: [CGAA-588] As a writer, I like this feature to indicate in what stage the submission is in once it's in my queue. CGAA-588
+  As a manager, it might be helpful to see what status are in each role on a main dashboard. Say for instance, I'd like to see which submissions all of the writers are currently working on. It'd be great to have a searchable feature in the manager's
+# Ticket: [CGAA-587] As a writer, I will not need to delete spam, or second a recommendation on a question. CGAA-587
+  Perhaps this could be made static once set by the manager? The information could be helpful to me as a writer, but I do not need to manipulate or change this information.
+# Ticket: [CGAA-586] As a writer, I do not need to manipulate "Scheduled to be reviewed on" or "Scheduled to be pulblished on" CGAA-586
+  The information might be helpful to me (to know that this is a question that I am updating by knowing the "Scheduled to be reviewed on" date) but I do not need to change or manipulate this date. It could confuse me to have it be an editable space.
+# Ticket: [CGAA-585] As a writer, placement of the research conclusions on the page when I open up a submission is good CGAA-585
+  Having it front and center first thing when I open up the submission is good. When I scroll down, I can get more specific information from the individual sources.
+# Ticket: [CGAA-584] As a writer, I'd like to be able to add a small amount of research to supplement the research attached to a submission. CGAA-584
+  Sometimes, a writer identifies a gap within the research and is able to locate reserach to inform their written response. In that case, we as the writer to submit a supplemental reserach document. In the demo version, I'm unsure where they would CGAA-698
+  as a developer CGAA-348
+  &#35; WARNING: This test adds a new question node. CGAA-598
+  Feature: consolidated writeups on a health topic CGAA-775
+  As a member of the editorial team logging into the site
+# Ticket: [CGAA-811] funnel user experience that avoids cul-de-sacs CGAA-811
+  As an anonymous user CGAA-345
+  As a blocked user CGAA-179
+  As an administrator of the Go Ask Alice website I would like to add quick quizzes to the site CGAA-271
+  As the legal defense team at GAA I can understand how decisions were made
+# Ticket: [CGAA-358] Submission needs another team member's attention CGAA-358 CGAA-442
+  from demo 1 notes, not sure what this refers to
+# Ticket: [CGAA-399] All reader responses are linked to the Q&A CGAA-399
+  As a visitor to a licensee site
+# Ticket: [CGAA-397] Permissions on licensee sites will be the same CGAA-397
+  As a user of any of the licensee sites
+# Ticket: [CGAA-187] Site visitor can subscribe to email blast of questions CGAA-187
+  As a visitor to the Go Ask Alice website I would like to subscribe to an email blast of questions
+# Ticket: [CGAA-163] Quiz taker views their results and correct answers CGAA-163
+  As a quiz taker
+# Ticket: [CGAA-286] automate outcome of workflow transitions archive, delete CGAA-286
+  create story: what should/does happen when nodes are transitioned to archive/delete CGAA-18
+  As a manager
+# Ticket: [CGAA-138] Manager marks updated question as ready to publish CGAA-138
+  As a manager receiving an updated question
+# Ticket: [CGAA-11] In order to add a new question as a student I need an obvious way to ask my question CGAA-11 CGAA-217
+  admin and steam

@@ -1,0 +1,716 @@
+[CGAA-2541] Any anonymous user (central or licensee): hompage links to "Themes of the Week" page
+  https://ownsourcing.atlassian.net/browse/CGAA-2541
+  Feature: Homepage link to Themes of the Week page
+  Benefit: In order to visit other recently created Theme of the week collections not featured on homepage
+  Actor: As an anonymous user
+  Action: I can click the title of the currently featured Theme of the week on the homepage or click "More Themes of the Week'
+  Outcome: Then I see the page load with the "Themes of the Week" at the top
+[CGAA-2539] Any anonymous user (central or licensee): "more polls" link on homepage
+  https://ownsourcing.atlassian.net/browse/CGAA-2539
+  Feature: Homepage link to Polls page
+  Benefit: In order to visit other polls not featured on homepage
+  Actor: As an anonymous user
+  Action: I can click on "more polls" under the homepage poll
+  Outcome: Then I see the page load with the "Polls" at the top
+[CGAA-2540] any anonymous user (central or licensee): homepage "more quizzes" link
+  https://ownsourcing.atlassian.net/browse/CGAA-2540
+  Feature: Homepage link to Quizzes page
+  Benefit: In order to view quizzes other than those featured on the homepage
+  Actor: As an anonymous user
+  Action: I can click "more quizzes" under the featured homepage
+  Outcome: Then I see the page load with "Quizzes" at the top
+[CGAA-2538] any anonymous user (central or licensee): "read more" link on homepage under "All about alice!"
+  https://ownsourcing.atlassian.net/browse/CGAA-2538
+  Feature: Homepage "read more" link to "All About Alice!" page
+  Benefit: In order to visit one the page of the site with more information about the content creators
+  Actor: As an anonymous user
+  Action: I can click on "read more" under the heading "All About Alice!" on the homepage
+  Outcome: Then I see the page load with the "All About Alice!" at the top
+[CGAA-2537] Any anonymous user (central or licensee): homepage "All about alice" link
+  https://ownsourcing.atlassian.net/browse/CGAA-2537
+  Benefit: In order to visit the page that will share more information about Alice! and who creates the content
+  Actor: As an anonymous user
+  Action: I can click "All about Alice!" that's linked to another page
+  Outcome: Then I see the page load with the same title at the top
+[CGAA-2536] Any anonymous user (Central or Licensee): homepage social media buttons
+  https://ownsourcing.atlassian.net/browse/CGAA-2536
+  Feature: Homepage links to Alice! social media and sharing
+  Benefit: In order to visit one of the social media accounts for Alice! Health Promotion
+  Actor: As an anonymous user
+  Action: I can click on a social media button on the homepage
+  Outcome: Then I a pop up screen asks if I wish to leave the GAA! site, and after clicking "continue" I am redirected to the particular social media account page
+[CGAA-2535] Any anonymous user (licensee or central site): homepage theme Q&A links
+  https://ownsourcing.atlassian.net/browse/CGAA-2535
+  Feature: Homepage links to individual Q&amp;As featured in theme of the week
+  Benefit: In order to visit one of the five featured theme Q&amp;As on the homepage
+  Actor: As an anonymous user
+  Action: I can click a linked Q&amp;A title
+  Outcome: Then I see the page load with the same title at the top
+[CGAA-2534] Any anonymous user (licensee or central site): recent Q&As
+  https://ownsourcing.atlassian.net/browse/CGAA-2534
+  Feature: Homepage link to recent Q&amp;As
+  Benefit: In order to visit one of the newest and recently updated Q&amp;As on the site
+  Actor: As an anonymous user
+  Action: I can click on "More Q&amp;As" on the homepage
+  Outcome: Then I see the page load with the "New Q&amp;As" at the top
+[CGAA-2533] Any anonymous user (licensee or central site): featured homepage quizzes
+  https://ownsourcing.atlassian.net/browse/CGAA-2533
+  Feature: Homepage links to quizzes
+  Benefit: In order to visit one of the quizzes listed on the homepage
+  Actor: As an anonymous user
+  Action: I can click a linked quiz title
+  Outcome: Then I see the page load with the same title at the top
+[CGAA-2532] Any anonymous user (licensee or central site): Voting on homepage poll
+  https://ownsourcing.atlassian.net/browse/CGAA-2532
+[CGAA-2512] Licensee anonymous user: homepage footer webforms
+  https://ownsourcing.atlassian.net/browse/CGAA-2512
+  Benefit: In order to communicate with GAA! team re: liscencing, syndication, comments, corrections, and media requests
+  Actor: As an anonymous licesnsee site user
+  Action: I can click a linked webform title
+  Outcome: Then I see the page load with the same webform title at the top
+[CGAA-2514] Licensee anonymous user: Subscribe/Get Alice! in your Inbox
+  https://ownsourcing.atlassian.net/browse/CGAA-2514
+  Feature: Homepage Subscribe menu/Get Alice! in Your Box sign up webform
+  Benefit: In order to sign up to receive the weekly GAA! email message
+  Actor: As an anonymous licensee user
+  Action: I can click a linked "Get Alice! in Your Box" item
+  Outcome: Then I see the webform page load with the same title at the top
+[CGAA-2528] Central site management of adding licensee users
+  https://ownsourcing.atlassian.net/browse/CGAA-2528
+  Feature: Manage users tool
+  Benefit: In order to add/edit/block/delete licensee users
+  Actor: As a logged in central site manager to the licensee site
+  Action: I can click "manage users" on the licensee site
+  Outcome: Then I see the page load with the same title at the top
+[CGAA-2529] Central site management of licensee editing user roles
+  https://ownsourcing.atlassian.net/browse/CGAA-2529
+  Scenario: editing licensee user roles
+[CGAA-2531] Central site management of blocking licensee users
+  https://ownsourcing.atlassian.net/browse/CGAA-2531
+  Scenario: blocking licensee user account
+[CGAA-2530] Central site management of licensee deleting user roles
+  https://ownsourcing.atlassian.net/browse/CGAA-2530
+  Scenario: deleting licensee user account
+[CGAA-2527] General site function story: Returning to homepage from any other site page
+  https://ownsourcing.atlassian.net/browse/CGAA-2527
+  Feature: Link to return to homepage
+  Benefit: In order to return to the GAA! homepage from any other page
+  Actor: As an anonymous user
+  Action: I can click the linked GAA! logo on the upper left hand corner on any page
+  Outcome: Then I see the page load with the homepage content
+[CGAA-2526] Licensee site user story: consolidate licensee site question submissions
+  https://ownsourcing.atlassian.net/browse/CGAA-2526
+  Kay — I added your language here, since it's more specific than my own.
+[CGAA-2524] Licensee logged-in user: Deleting local resource
+  https://ownsourcing.atlassian.net/browse/CGAA-2524
+  Feature: Delete local resource for licensee site
+  Benefit: In order to remove one of 5 entries for local resources for licensee sites
+  Actor: As an logged in licensee user
+  Action: I can click on "delete this local resource"
+  Outcome: Then I see the page load with a question prompt: "Are you sure you want to delete
+[CGAA-2523] Licensee logged-in user: Changing user password
+  https://ownsourcing.atlassian.net/browse/CGAA-2523
+  Feature: Ability to change user password
+  Benefit: In order to update password after initial log in permissions granted from Columbia
+  Actor: As an logged-in licensee user
+  Action: I can click "edit" under user name
+  Outcome: Then I see the page load with the form to enter current password, enter/confirm new password, and save
+[CGAA-2522] Licensee logged-in user: Editing local resources
+  https://ownsourcing.atlassian.net/browse/CGAA-2522
+  Feature: Editing local resources
+  Benefit: In order to add information about and display local resources on anonymous view of licensee site
+  Actor: As an logged in licensee user
+  Action: I can click on "edit this information" associated with a given resource type
+  Outcome: Then I see the page load with the "edit local resource
+[CGAA-2521] Scenario: logging in to licensee GAA! site
+  https://ownsourcing.atlassian.net/browse/CGAA-2521
+[CGAA-2520] Licensee anonymous user: custom licensee site URL
+  https://ownsourcing.atlassian.net/browse/CGAA-2520
+  Feature: Licensee university-specific GAA! URL
+  Benefit: In order to visit a specific licensee GAA! site
+  Actor: As an anonymous licensee site user
+  Action: I can type "goaskalice.&#91;university name&#93;.edu
+  Outcome: Then I see the page load with the licensee-specific GAA! site for that university
+[CGAA-2519] Licensee anonymous user: homepage "About Alice!" menu
+  https://ownsourcing.atlassian.net/browse/CGAA-2519
+  Feature: Homepage "About Alice!" menu
+  Benefit: In order to visit site pages on the site specific to the history, reader feedback, awards, and creators of the GAA! site
+  Actor: As an anonymous licensee user
+  Action: I can click the "About Alice!" menu
+  Outcome: Then I see the drop down menu with "All About Alice!", "Go Ask Alice! History", "Rants &amp; Raves", and "FAQs" options/pages
+[CGAA-2518] Licensee anonymous user: homepage "Find Help" menu
+  https://ownsourcing.atlassian.net/browse/CGAA-2518
+  Feature: Homepage "Find Help" menu
+  Benefit: In order to visit pages with local emergency and on campus resources
+  Actor: As an anonymous licensee site user
+  Action: I can click the "Find Help" menu
+  Outcome: Then I see the drop down menu with "In an emergency" and "On-campus resources" options/pages
+[CGAA-2517] Licensee anonymous user: Quizzes homepage menu
+  https://ownsourcing.atlassian.net/browse/CGAA-2517
+  Feature: Homepage Quizzes menu
+  Benefit: In order to visit the quizzes or polls pages
+  Actor: As an anonymous licensee site user
+  Action: I can click on the Quizzes menu
+  Outcome: Then I see the drop down menu with the "polls" and "quizzes" listed
+[CGAA-2516] licensee anonymous user: homepage health answers menu
+  https://ownsourcing.atlassian.net/browse/CGAA-2516
+  Feature: Homepage Health Answers menu
+  Benefit: In order to visit Q&amp;As organized under the meta categories, themes, and fact sheets
+  Actor: As an anonymous licensee user
+  Action: I can click the Health Answers menu
+  Outcome: Then I see the drop down menu with the Q&amp;A meta categories, themes, recent Q&amp;As, and fact sheet
+[CGAA-2515] Licensee anonymous user: homepage logo/link to licensee univ homepage
+  https://ownsourcing.atlassian.net/browse/CGAA-2515
+  Feature: homepage logo/link to licensee univ homepage
+  Benefit: In order to visit licensee university homepage from GAA! licensee siteone of the five New Q&amp;As listed on the homepage
+  Actor: As an anonymous licensee site user
+  Action: I can click a linked licensee university logo at the top right hand corner of the homepage
+  Outcome: Then I see the page load with the licensee university main homepage
+[CGAA-2513] Licensee anonymous user: homepage "visit our Emergency page" link in footer
+  https://ownsourcing.atlassian.net/browse/CGAA-2513
+  Feature: Homepage "visit our Emergency page" link to "In an emergency" page
+  Benefit: In order to visit page with emergency resource information
+  Actor: As an anonymous licensee site user
+  Action: I can click a linked "visit our Emergency page" link in the footer of the homepage
+  Outcome: Then I see a page load with the "In an emergency" title at the top
+  https://ownsourcing.atlassian.net/browse/CGAA-2499
+  Feature: Homepage poll on Internet Explorer
+  Benefit: Allow users to interact with content in a different way (other than Q&amp;As)
+  Actor: As an anonymous user
+  Action: I can click on a radio button next to the option I choose and click "vote" at the bottom of the poll to record.
+  Outcome: the vote is saved and the percentages of submitted votes from other anonymous users for each individual option in poll submitted displays
+[CGAA-2506] USER STORY: Viewing local resources on Q&A pages (Licensee)
+  https://ownsourcing.atlassian.net/browse/CGAA-2506
+  Feature: Resource links on Licensee site Q&amp;A pages
+  Benefit: In order to find local resources to the licensee location
+  Actor: As an anonymous user on the licensee site
+  Action: I can click a linked local resource
+  Outcome: Then I see the page displaying information added re: selected resource
+[CGAA-2505] USER STORY: Viewing Licensee site fact sheets
+  https://ownsourcing.atlassian.net/browse/CGAA-2505
+  Feature: Fact sheets menu on Licensee site
+  Benefit: In order to view one of the fact sheets (either with no local resources, or specific local resources) on the Fact Sheet submenu
+  Actor: As an anonymous user on the Licensee site
+  Action: I can click on the Fact Sheet menu and select one of the fact sheets listed
+  Outcome: Then I view the selected fact sheet (either with no local resources, or specific local resources)
+[CGAA-2504] USER STORY: Viewing local resources on Licensee site
+  https://ownsourcing.atlassian.net/browse/CGAA-2504
+  Feature: "Find Help" menu on Licensee site
+  Benefit: In order to view licensee local resources
+  Actor: As an anonymous user to the licensee site
+  Action: I can click on the "Find Help" menu and then click on either "In an Emergency" or "On-campus Resources"
+  Outcome: Then I see resources specific to my licensee campus/location
+[CGAA-2503] USER STORY: Adding award images on All About Alice! page
+  https://ownsourcing.atlassian.net/browse/CGAA-2503
+  Feature: Add images to stylized basic page
+  Benefit: To successfully post images associated with awards in desired fashion on All About Alice!
+  Actor: As a logged in user with Manager permissions
+  Action: I can upload and add images to field in All About Alice! basic page
+  Outcome: Then I see the desired images when viewing the site as an anonymous user
+[CGAA-2502] USER STORY: Viewing All About Alice! award images
+  https://ownsourcing.atlassian.net/browse/CGAA-2502
+  Feature: Awards images on All About Alice! page
+  Benefit: In order to view images of awards one of the five New Q&amp;As listed on the homepage
+  Actor: As an anonymous user
+  Action: I can scroll down to the bottom of the All About Alice! page to the awards images
+  Outcome: Then I see the awards images at the bottom of the page
+  https://ownsourcing.atlassian.net/browse/CGAA-2501
+  Feature: Menu link to top navigation menus on mobile site
+  Benefit: In order to visit any of the top navigation menus (and content listed within) using a mobile version of the site
+  Actor: As an anonymous user
+  Action: I can click on a menu to reveal sub menus
+  Outcome: Then I can navigate through various menus and content on the site
+  https://ownsourcing.atlassian.net/browse/CGAA-2500
+  Feature: Link to create poll
+  Benefit: In order to create weekly poll
+  Actor: As a logged in user with Manager level permissions
+  Action: I can click a linked tool titled "poll"
+  Outcome: I can see the page be redirected to poll creation tool
+  https://ownsourcing.atlassian.net/browse/CGAA-2497
+  pull requests:
+[CGAA-2416] Need outline of tools/dashboards associated with what roles
+  https://ownsourcing.atlassian.net/browse/CGAA-2416
+  because roles are changing, please provide a list of active roles (there are a number that are holdovers from the D6 site that likely do nothing) and the tools that display with each. This will be key for the person assigning roles.
+[CGAA-200] Notify users of new workflow assignments via email not Dashboard
+  https://ownsourcing.atlassian.net/browse/CGAA-200
+  As a Writer, I work off-site and am not in the CMS daily to check my queue. I am unaware when a new assignment has been added to my queue. One writer suggested that an email notification be sent when a new assignment has been added to their queue.
+  https://ownsourcing.atlassian.net/browse/CGAA-209
+  As a manager, I am able to stage the homepage publish by...
+  https://ownsourcing.atlassian.net/browse/CGAA-375
+[CGAA-1440] As a manager, I need to have the ability to edit the title of a question. I do not currently have that capability.
+  https://ownsourcing.atlassian.net/browse/CGAA-1440
+  I need to change the title of this question! There are times where the titles submitted by anonymous users are not adequately descriptive, like this example.
+  https://ownsourcing.atlassian.net/browse/CGAA-372
+[CGAA-205] Writer needs to upload supplemental documents
+  https://ownsourcing.atlassian.net/browse/CGAA-205
+  As a writer, I may need to upload a supplemental document to the CMS if I have reviewed the research document on file and find an additional source of information that helps me formulate an appropriate response to the question.
+[CGAA-207] Manager needs to upload a supplemental document
+  https://ownsourcing.atlassian.net/browse/CGAA-207
+  As a manager, I may upload a supplemental document to the CMS if I am reviewing a newly edited response (or an edited update to a published response) and see that it needs additional information or content added. The supplemental doc will reflect
+[CGAA-371] Site visitor takes a poll then views results
+  https://ownsourcing.atlassian.net/browse/CGAA-371
+[CGAA-2314] licensee determines which resources appear on the licensee site
+  https://ownsourcing.atlassian.net/browse/CGAA-2314
+  licensees can add up to 6 licensee resources (aka services, aka local resources)
+  https://ownsourcing.atlassian.net/browse/CGAA-398
+  As a content publisher on the GAA site
+[CGAA-2042] Submission conversion from question to comments & corrections successful.
+  https://ownsourcing.atlassian.net/browse/CGAA-2042
+  Text remained unchanged in conversion.
+  https://ownsourcing.atlassian.net/browse/CGAA-129
+[CGAA-439] Question admin determines if question is appropriate
+  https://ownsourcing.atlassian.net/browse/CGAA-439
+[CGAA-2040] Converting reader response to collaboration request successful
+  https://ownsourcing.atlassian.net/browse/CGAA-2040
+  There was no loss of text from original submission and could easily be found in the collaboration request (reader input) submissions.
+[CGAA-264] Reader input: submit, categorize, address
+  https://ownsourcing.atlassian.net/browse/CGAA-264
+[CGAA-1745] Not all recommended questions get published
+  https://ownsourcing.atlassian.net/browse/CGAA-1745
+  As a manager reviewing recommended questions
+[CGAA-331] Review new question submissions (was question admin queue)
+  https://ownsourcing.atlassian.net/browse/CGAA-331
+[CGAA-1823] queue administrators request manager input
+  https://ownsourcing.atlassian.net/browse/CGAA-1823
+  As q.admin, I can comment on a newly submitted question before I make a decision. As long as I indicate I'm still working on this task, the question stays in my queue (regardless of other field values, even an admin decision). My comment and any
+  https://ownsourcing.atlassian.net/browse/CGAA-395
+[CGAA-1743] Add progress notes as I work on a question
+  https://ownsourcing.atlassian.net/browse/CGAA-1743
+[CGAA-1742] Review of Progress messages on a question
+  https://ownsourcing.atlassian.net/browse/CGAA-1742
+  https://ownsourcing.atlassian.net/browse/CGAA-1744
+  As a manager of the Alice! team
+[CGAA-20] Add comment before advancing a question to the next step in the process
+  https://ownsourcing.atlassian.net/browse/CGAA-20
+[CGAA-1687] Edit live content across all sites, both central and licensees
+  https://ownsourcing.atlassian.net/browse/CGAA-1687
+  As a live content editor,
+[CGAA-324] Site visitor adds their own response to questions
+  https://ownsourcing.atlassian.net/browse/CGAA-324
+  https://ownsourcing.atlassian.net/browse/CGAA-218
+  feature: display timestamp on homepage
+[CGAA-790] timestamp(s) in footer of selected pages
+  https://ownsourcing.atlassian.net/browse/CGAA-790
+  as a web server
+  https://ownsourcing.atlassian.net/browse/CGAA-25
+  As an editor, I can set and modify the review date when I publish a question, so that the team knows when to review it again.
+[CGAA-211] Examples of supplemental documents from various roles
+  https://ownsourcing.atlassian.net/browse/CGAA-211
+  I am still looking for one from the writer's perspective, but essentially, they look a lot alike. What I did not capture here is when a researcher uploads a .pdf in the supplemental document area in a submission because they cannot copy and paste
+  https://ownsourcing.atlassian.net/browse/CGAA-164
+  scenario: new quiz
+[CGAA-1460] handling dates when only the year is meaningful
+  https://ownsourcing.atlassian.net/browse/CGAA-1460
+  As a researcher, sometimes the only "last reviewed" date I can find is a year, but no month or date. Its important for me to be able to put in what information I can though.
+[CGAA-365] Preview of home page scheduled for publication
+  https://ownsourcing.atlassian.net/browse/CGAA-365
+  https://ownsourcing.atlassian.net/browse/CGAA-15
+[CGAA-1163] RE: Historical fields in submission to preserve — "NID (Assigned submission ID)"
+  https://ownsourcing.atlassian.net/browse/CGAA-1163
+  As a manager (and as a researcher and writer) I regularly reference the NID (Assigned submission ID) to help me recognize the submission I'm working on. Since question title change from time to time, It's helpful to have a constant element (like
+[CGAA-1164] RE: Historical fields in submission to preserve — "Originally Published date"
+  https://ownsourcing.atlassian.net/browse/CGAA-1164
+  As a manager, for record keeping purposes, it's helpful to know the originally published date. Will this be migrated over as historical information? The manager doesn't use it as often, (and at times, there have been errors in the current system
+[CGAA-1165] RE: Historical fields in submission to preserve — " document uploads"
+  https://ownsourcing.atlassian.net/browse/CGAA-1165
+  As a manager or researcher (and to a degree the editors and writers) frequently reference the uploads within a given submission. This is particularly critical to the workflow process and to updated questions as managers can see when the last time
+[CGAA-1158] RE: Historical fields in submission to preserve — "Previous comments"
+  https://ownsourcing.atlassian.net/browse/CGAA-1158
+  As a manager, I am able to inform decisions and actions to take on a given submission based on user generated comments within the submission. In this example, an error occcured in the system and a user labeld this submission as a bug. This is
+  https://ownsourcing.atlassian.net/browse/CGAA-910
+  As an anonymous visitor
+[CGAA-688] while browsing for related questions, can flag a question that needs to be updated
+  https://ownsourcing.atlassian.net/browse/CGAA-688
+  As an EDT member, while browsing for related questions, can flag a question that needs to be updated
+[CGAA-687] As a researcher looking at related questions that inform the research effort, I can add comments about the relationship
+  https://ownsourcing.atlassian.net/browse/CGAA-687
+  As a researcher looking at related questions that inform the research effort,
+[CGAA-1098] Redirect urls from previous versions of the site
+  https://ownsourcing.atlassian.net/browse/CGAA-1098
+  As a repeat visitor (including search engine crawlers)
+[CGAA-1080] As an editor, I can confirm that my change was made after clicking on "see changes here" in progress, and viewed revision report.
+  https://ownsourcing.atlassian.net/browse/CGAA-1080
+  This looks good!
+  https://ownsourcing.atlassian.net/browse/CGAA-829
+  As an anonymous user visiting the site
+  https://ownsourcing.atlassian.net/browse/CGAA-880
+  Feature: display of categories to a site visitor
+  https://ownsourcing.atlassian.net/browse/CGAA-445
+  As an anonymous visitor to the Go Ask Alice! site
+[CGAA-795] find informative nodes and relate them to Questions
+  https://ownsourcing.atlassian.net/browse/CGAA-795
+  as an Alice! team member performing research
+[CGAA-774] Task assigner/expediter can determine path a question has taken
+  https://ownsourcing.atlassian.net/browse/CGAA-774
+  As a task assigner/expeditor
+[CGAA-724] As a registered user I can understand why others consider a section of text(esp. research) important
+  https://ownsourcing.atlassian.net/browse/CGAA-724
+  As a registered user I can understand why others consider a section of text(esp. research) important
+[CGAA-723] As a researcher/writer/editor/manager I can modify any aspect of a question
+  https://ownsourcing.atlassian.net/browse/CGAA-723
+  As a researcher/writer/editor/manager I can modify any aspect of a question except others discussion contributions
+[CGAA-722] As a registered user editing or viewing a question I can see the current workflow status and assignment so that I am aware of its progress relative to completion
+  https://ownsourcing.atlassian.net/browse/CGAA-722
+  As a registered user editing or viewing a question I can see the current workflow status and assignment so that I am aware of its progress relative to completion (being published)
+[CGAA-721] As a registered user I can see the discussion that relates to my focus
+  https://ownsourcing.atlassian.net/browse/CGAA-721
+  As a registered user I can see the discussion that relates to my focus
+[CGAA-720] As a Research/Writer/Editor/Manager I can participate in a discussions around a question (and don’t want pesky workflow notes (log) in my way)
+  https://ownsourcing.atlassian.net/browse/CGAA-720
+  As a Research/Writer/Editor/Manager I can participate in a discussions around a question (and don’t want pesky workflow notes (log) in my way)
+[CGAA-719] As a registered user I can see all notes from team members on a question in order to maintain consistency across the site (common voice)
+  https://ownsourcing.atlassian.net/browse/CGAA-719
+[CGAA-718] As a Research/Writer/Editor updating(cloning) a question I can refer back to discussion from the original to fully understand it before beginning work on the updated version.
+  https://ownsourcing.atlassian.net/browse/CGAA-718
+[CGAA-717] As a Trainer/Trainee, I can read through the entire question process to understand how to properly contribute/improve contributions.
+  https://ownsourcing.atlassian.net/browse/CGAA-717
+[CGAA-716] As a Research/Writer/Editor, I can quickly skim through all past notes from team members so as to gain the full context and intended direction of the question before making my next contribution.
+  https://ownsourcing.atlassian.net/browse/CGAA-716
+[CGAA-715] As a registered user I can distinguish between cultural and mechanical considerations of the writing when I enter/view it
+  https://ownsourcing.atlassian.net/browse/CGAA-715
+[CGAA-713] As a registered user, I can quickly see NEW discussion items on a question (where multiple threads may be active)
+  https://ownsourcing.atlassian.net/browse/CGAA-713
+  https://ownsourcing.atlassian.net/browse/CGAA-693
+  https://ownsourcing.atlassian.net/browse/CGAA-739
+[CGAA-643] Researcher adds date as year or month/year
+  https://ownsourcing.atlassian.net/browse/CGAA-643
+  As a researcher adding last updated date for research I am using
+[CGAA-641] EDT member looking for cultural currency
+  https://ownsourcing.atlassian.net/browse/CGAA-641
+  As a member of the editorial team
+  https://ownsourcing.atlassian.net/browse/CGAA-642
+  As an auditor of the GAA Q&amp;As defending the university in legal matters
+  https://ownsourcing.atlassian.net/browse/CGAA-640
+  As a reviewer of the research
+  https://ownsourcing.atlassian.net/browse/CGAA-608
+  Who populates this? There's no indication who made the previous comment. As someone doing the editing, I want to know the researchers conclusiongs from the cited research.
+[CGAA-593] As a researcher, it's nice to have the ability to see a small preview of the submissions in my queue to work on. It's also nice to be able to filter through all of my submissions to organize them.
+  https://ownsourcing.atlassian.net/browse/CGAA-593
+  Like this layout!
+[CGAA-592] As a writer, I might find it confusing to have both of these text boxes available to me to inform the response I'd write.
+  https://ownsourcing.atlassian.net/browse/CGAA-592
+  They are too similar in their description that it's likely it woudl be more helpful to collapse the "Conclusions drawn from cited research" and "Summary of all reserach" into "Researcher's Overall Conclusions" and place it where the "Conclusions
+[CGAA-591] As a writer, it'd be great to see a "printer friendly version" of the research, rather than having editable text boxes with the research information in them.
+  https://ownsourcing.atlassian.net/browse/CGAA-591
+  Could this part of the "supporting materials" be in a printer friendly/word document format that cannot be edited by a writer? They have no need to edit the research that's been compiled the the researcher; they only need to be able to read it and
+  https://ownsourcing.atlassian.net/browse/CGAA-498
+  As an editorial team member reviewing question submissions
+  https://ownsourcing.atlassian.net/browse/CGAA-444
+  mentioned in initial kickoff
+[CGAA-441] Manager can select a time for an answered question to go live (published)
+  https://ownsourcing.atlassian.net/browse/CGAA-441
+  line 78 of
+[CGAA-443] anonymous should not see the question.log (the revision log message)
+  https://ownsourcing.atlassian.net/browse/CGAA-443
+[CGAA-440] manager determines if question is appropriate
+  https://ownsourcing.atlassian.net/browse/CGAA-440
+  https://ownsourcing.atlassian.net/browse/CGAA-438
+  example:
+[CGAA-401] All reader responses are linked to the Q&A
+  https://ownsourcing.atlassian.net/browse/CGAA-401
+  As an anonymous visitor,
+[CGAA-400] Users will be specific to each licensee site
+  https://ownsourcing.atlassian.net/browse/CGAA-400
+  Ad a site admin of a Go ask Alice! licensee site
+  https://ownsourcing.atlassian.net/browse/CGAA-402
+  As an anonymous visitor,
+[CGAA-396] All Go Ask Alice sites are fundamentally identical
+  https://ownsourcing.atlassian.net/browse/CGAA-396
+  All publicly reachable aspect of Go Ask Alice site(s) is identical across all instances. Only base urls, the institution logo, content within local references, and local users may differ.
+  https://ownsourcing.atlassian.net/browse/CGAA-394
+  As a content editor of a licensee's site
+[CGAA-329] administrator has access to D7 homepage content history
+  https://ownsourcing.atlassian.net/browse/CGAA-329
+  As an administrator of the site
+[CGAA-328] administrator has access to D6 homepage content history
+  https://ownsourcing.atlassian.net/browse/CGAA-328
+  As an administrator of the site
+[CGAA-338] Editorial team can manage licensee urls, users, etc.
+  https://ownsourcing.atlassian.net/browse/CGAA-338
+  As an editorial team member, I have a clear process for adding / confirming / modifying / removing components that fulfill a licensing agreement
+[CGAA-292] reliably roll out to up to 50 institutions, maintain
+  https://ownsourcing.atlassian.net/browse/CGAA-292
+  deployment strategies in regards to roll out and maintenance
+[CGAA-274] GAA licensee can add re-usable local links
+  https://ownsourcing.atlassian.net/browse/CGAA-274
+  As a GAA licensee
+  https://ownsourcing.atlassian.net/browse/CGAA-122
+  As GAA I maintain complete control over GAA content
+[CGAA-350] Columbia's primary care links electronic health record
+  https://ownsourcing.atlassian.net/browse/CGAA-350
+  As Columbia's primary care service [&#91;role e.g. patient education coordinator&#93;]
+[CGAA-276] Search for related Q&As returns published content
+  https://ownsourcing.atlassian.net/browse/CGAA-276
+  As an anonymous site user using the search function
+[CGAA-254] Change content causing errors in current site
+  https://ownsourcing.atlassian.net/browse/CGAA-254
+  As a manager, I've encountered errors with questions where the content of the submisions (research documents, writer document, edited documents, etc) get switched within the CMS.
+  https://ownsourcing.atlassian.net/browse/CGAA-251
+  As a person using any internet browser with &gt; 20% of the market share or using Internet Explorer &gt;= 10, I can access the GAA site and perform all functionality available to an anonymous user.
+[CGAA-547] Question associated with multiple categories
+  https://ownsourcing.atlassian.net/browse/CGAA-547
+  As a editorial team member
+[CGAA-181] Administrator chooses quizzes to display in Quick Quiz block
+  https://ownsourcing.atlassian.net/browse/CGAA-181
+  As an administrator of the Go Ask Alice website I would like to choose which quick quizzes to display in the Quick Quiz section on the home page
+  https://ownsourcing.atlassian.net/browse/CGAA-165
+  As a GAA admin
+  https://ownsourcing.atlassian.net/browse/CGAA-197
+  Story - As a content creator I can write with a desktop text editor and submit it to the Drupal site. I need to embed links and bullets
+[CGAA-180] Quizzes question types include multiple choice and true/false questions
+  https://ownsourcing.atlassian.net/browse/CGAA-180
+  As an administrator of the Go Ask Alice website I would like to include multiple choice and true/false questions to quick quizzes on the site
+[CGAA-359] Anonymous user subscribes to updates from goaskalice
+  https://ownsourcing.atlassian.net/browse/CGAA-359
+[CGAA-374] Site visitor views scrolling list of raves
+  https://ownsourcing.atlassian.net/browse/CGAA-374
+[CGAA-193] Site visitor uses social media on the GAA site
+  https://ownsourcing.atlassian.net/browse/CGAA-193
+[CGAA-282] Site visitor accesses Health information sheets
+  https://ownsourcing.atlassian.net/browse/CGAA-282
+[CGAA-190] Site visitor uses themes to view related questions
+  https://ownsourcing.atlassian.net/browse/CGAA-190
+[CGAA-178] Anonymous user gets immediate results of quiz they take
+  https://ownsourcing.atlassian.net/browse/CGAA-178
+[CGAA-177] Site visitor takes quiz to assess knowledge
+  https://ownsourcing.atlassian.net/browse/CGAA-177
+[CGAA-194] Provide a warning that the user is leaving the site before accessing external websites
+  https://ownsourcing.atlassian.net/browse/CGAA-194
+[CGAA-219] Reader views snippets of answer using search
+  https://ownsourcing.atlassian.net/browse/CGAA-219
+[CGAA-192] Site visitor prints a hard copy of a Q&A
+  https://ownsourcing.atlassian.net/browse/CGAA-192
+  https://ownsourcing.atlassian.net/browse/CGAA-191
+[CGAA-325] Site visitor views other reader responses
+  https://ownsourcing.atlassian.net/browse/CGAA-325
+  https://ownsourcing.atlassian.net/browse/CGAA-376
+  https://ownsourcing.atlassian.net/browse/CGAA-290
+[CGAA-316] Accessibility concerns around spam control
+  https://ownsourcing.atlassian.net/browse/CGAA-316
+  https://ownsourcing.atlassian.net/browse/CGAA-373
+[CGAA-280] Two users don't simultaneously edit a node
+  https://ownsourcing.atlassian.net/browse/CGAA-280
+  As a member of the editorial team
+[CGAA-333] Summary of research displayed prominently on question
+  https://ownsourcing.atlassian.net/browse/CGAA-333
+  https://ownsourcing.atlassian.net/browse/CGAA-465
+  As an anonymous site visitor
+[CGAA-83] The text of reader questions goes through revision
+  https://ownsourcing.atlassian.net/browse/CGAA-83
+  We know Alice's answers go through research and revisions. Do you need to be able to track changes to the text of questions, as well?
+  https://ownsourcing.atlassian.net/browse/CGAA-270
+  As a member of the editorial team completing my work directly in the browser
+[CGAA-236] Allow work to be submitted in browsers other than firefox
+  https://ownsourcing.atlassian.net/browse/CGAA-236
+  Because the CMS is apparently optimized for Firefox, logging in and submitting work to the CMS from any other browser can result in an error. For example, a researcher recently used Safari from home to sign in to the CMS and upload a researcher
+[CGAA-269] Use in-place editing for relationship between questions, answers and research
+  https://ownsourcing.atlassian.net/browse/CGAA-269
+  In place editing let's interns see things in context without needing to navigate between content types. Reduces training needed for interns
+  https://ownsourcing.atlassian.net/browse/CGAA-111
+  As a researcher, I can write a new piece of research and associate it with one or more Reader question(s).
+[CGAA-189] Researcher needs to upload supplemental documents
+  https://ownsourcing.atlassian.net/browse/CGAA-189
+[CGAA-108] Researcher starts discussion around a question
+  https://ownsourcing.atlassian.net/browse/CGAA-108
+  As a researcher I want to start a discussion around a question that has been assigned to me.
+[CGAA-332] Writer compares their edits to the final version
+  https://ownsourcing.atlassian.net/browse/CGAA-332
+  As a writer
+[CGAA-285] Editorial team members can get more information on changes made
+  https://ownsourcing.atlassian.net/browse/CGAA-285
+  As a member of the editorial team
+  https://ownsourcing.atlassian.net/browse/CGAA-413
+  As a member of the editorial team who is updating a question
+[CGAA-284] Editorial team member can view entire picture around a question
+  https://ownsourcing.atlassian.net/browse/CGAA-284
+  As a member of the editorial team
+[CGAA-405] Editorial team members can know if answer is up-to-date regarding related researches
+  https://ownsourcing.atlassian.net/browse/CGAA-405
+  As a member of the editorial team
+[CGAA-430] Indicate that reader input has been addressed
+  https://ownsourcing.atlassian.net/browse/CGAA-430
+  As the user responsible for making sure reader input, excluding reader responses, is addressed
+  https://ownsourcing.atlassian.net/browse/CGAA-368
+  https://ownsourcing.atlassian.net/browse/CGAA-367
+[CGAA-366] Content selected for home page publishing
+  https://ownsourcing.atlassian.net/browse/CGAA-366
+[CGAA-340] Member of editorial team can view content by status
+  https://ownsourcing.atlassian.net/browse/CGAA-340
+  As a member of the editorial team going to my list of nodes
+[CGAA-339] Member of editorial team gives one word status
+  https://ownsourcing.atlassian.net/browse/CGAA-339
+  As a member of the editorial team
+  https://ownsourcing.atlassian.net/browse/CGAA-313
+[CGAA-334] Manager can view when workflow emails were sent
+  https://ownsourcing.atlassian.net/browse/CGAA-334
+  As a manager
+[CGAA-364] Distinguish between original assignment and re-assignment
+  https://ownsourcing.atlassian.net/browse/CGAA-364
+  https://ownsourcing.atlassian.net/browse/CGAA-369
+[CGAA-206] Editor needs to upload supplemental documents
+  https://ownsourcing.atlassian.net/browse/CGAA-206
+  As an editor, I may upload a supplemental document to the CMS if I am reviewing a newly written response (or an update to a published response) and see that it needs additional information or content added. The supplemental doc will reflect the
+[CGAA-105] Editor sends question back to manager for review and publish
+  https://ownsourcing.atlassian.net/browse/CGAA-105
+  As an editor in the workflow process once I have finished with a question I can assign the question back to the manager for review
+[CGAA-104] Writer assigns question to next stage or back to manager for review
+  https://ownsourcing.atlassian.net/browse/CGAA-104
+  As a writer in the workflow process I can indicate that the writing is complete or I can send the question back to the manager for review or for clarification
+[CGAA-103] Researcher assigns question to next stage or back to Manager
+  https://ownsourcing.atlassian.net/browse/CGAA-103
+  As a researcher in the workflow process I can indicate that the research process is complete or I can send the question back to the manager for review or for clarification
+  https://ownsourcing.atlassian.net/browse/CGAA-210
+[CGAA-77] Any team member can assign tasks to any other team member or leave blank
+  https://ownsourcing.atlassian.net/browse/CGAA-77
+  Setting workflow up so that anyone can assign to a specific person; alternatives appear to create bottlenecks with transitions, so we recommend not restricting this field with permissions and dealing with its use as a 'working agreement'
+[CGAA-261] Researcher needs to work through revisions
+  https://ownsourcing.atlassian.net/browse/CGAA-261
+  As a researcher
+  https://ownsourcing.atlassian.net/browse/CGAA-36
+  &#8212; original description from Amanda &#8212;
+  https://ownsourcing.atlassian.net/browse/CGAA-30
+  As a member of the editorial team, I want to be able to unpublish a reader response without deleting it, so that it is no longer visible under the parent question, but is retained in the CMS.
+  https://ownsourcing.atlassian.net/browse/CGAA-127
+  As an editor I need to be alerted when a question needs to be reviewed
+  https://ownsourcing.atlassian.net/browse/CGAA-353
+  https://ownsourcing.atlassian.net/browse/CGAA-347
+[CGAA-139] Manager marks updated question as needs more work
+  https://ownsourcing.atlassian.net/browse/CGAA-139
+  As a manager receiving an updated question
+[CGAA-131] Revisions to published answers are not published until reviewed
+  https://ownsourcing.atlassian.net/browse/CGAA-131
+  As someone adding a revision to a published answer
+  https://ownsourcing.atlassian.net/browse/CGAA-31
+  useful to understand why
+  https://ownsourcing.atlassian.net/browse/CGAA-186
+[CGAA-320] Reader response user publishes reader responses
+  https://ownsourcing.atlassian.net/browse/CGAA-320
+  As a user with the reader response role
+[CGAA-319] Reader response user edits reader responses
+  https://ownsourcing.atlassian.net/browse/CGAA-319
+  As a user with the reader response role
+[CGAA-204] Researcher uploads supplemental document
+  https://ownsourcing.atlassian.net/browse/CGAA-204
+  As a researcher, I may need to upload a supplmental document to the CMS for two reasons: either the source I'm referring to in my research document cannot be copied and pasted (like some .pdf files) OR I am uploaded an additional research document
+[CGAA-357] Editorial team member requests manager's input
+  https://ownsourcing.atlassian.net/browse/CGAA-357
+[CGAA-283] manager determines productivity of editorial staff
+  https://ownsourcing.atlassian.net/browse/CGAA-283
+  As a manager
+[CGAA-102] Manager decides if question should be answered
+  https://ownsourcing.atlassian.net/browse/CGAA-102
+  As a manager in the workflow process I can assign questions that should be answered and archive or delete the others
+[CGAA-354] Question automatically moves to assigned user
+  https://ownsourcing.atlassian.net/browse/CGAA-354
+  Upon step completion, a question with an assignment at the next workflow stage will be moved into that user's queue when the current workflow stage is marked as completed
+  https://ownsourcing.atlassian.net/browse/CGAA-310
+  As a question admin or a manager
+  https://ownsourcing.atlassian.net/browse/CGAA-23
+  As a question administrator or a manager
+  https://ownsourcing.atlassian.net/browse/CGAA-101
+  As a question admin or manager in the workflow process
+  https://ownsourcing.atlassian.net/browse/CGAA-291
+  https://ownsourcing.atlassian.net/browse/CGAA-420
+  As a member of the editorial team working through my workflow queue
+[CGAA-361] Task assigner/expediter can determine availability & capacity
+  https://ownsourcing.atlassian.net/browse/CGAA-361
+[CGAA-275] Manager makes changes without going through workflow again
+  https://ownsourcing.atlassian.net/browse/CGAA-275
+  https://ownsourcing.atlassian.net/browse/CGAA-12
+  As a user of the system, in order to track the status of a reader question, I receive a notification.
+[CGAA-346] access/visibility: efficiency versus privacy etc.
+  https://ownsourcing.atlassian.net/browse/CGAA-346
+[CGAA-344] Read question, summaries of work before taking next steps
+  https://ownsourcing.atlassian.net/browse/CGAA-344
+[CGAA-318] Reader responses are reviewed and published
+  https://ownsourcing.atlassian.net/browse/CGAA-318
+  As a graduate student with the ability to work on reader responses
+[CGAA-82] Publish updates to questions (review process)
+  https://ownsourcing.atlassian.net/browse/CGAA-82
+  As manager, choose to publish/unpublish a question and re-queue for review
+  https://ownsourcing.atlassian.net/browse/CGAA-106
+  As a manager in the workflow process I can choose to publish a question
+  https://ownsourcing.atlassian.net/browse/CGAA-46
+  https://ownsourcing.atlassian.net/browse/CGAA-26
+  As a manager
+  https://ownsourcing.atlassian.net/browse/CGAA-32
+  https://ownsourcing.atlassian.net/browse/CGAA-27
+[CGAA-363] Indicate intent for content, progress, etc.
+  https://ownsourcing.atlassian.net/browse/CGAA-363
+  https://ownsourcing.atlassian.net/browse/CGAA-343
+  https://ownsourcing.atlassian.net/browse/CGAA-689
+  As an Alice team member,
+  https://ownsourcing.atlassian.net/browse/CGAA-481
+  As a researcher writing my findings
+  https://ownsourcing.atlassian.net/browse/CGAA-360
+[CGAA-356] Evaluate anonymously submitted form values
+  https://ownsourcing.atlassian.net/browse/CGAA-356
+  https://ownsourcing.atlassian.net/browse/CGAA-24
+  As a manager, I can re-order, sort, and view questions in a way that reflects their relative priorities, so that my team and I can work effectively.
+  https://ownsourcing.atlassian.net/browse/CGAA-391
+  As an anonymous site visitor viewing a Q&amp;A
+  https://ownsourcing.atlassian.net/browse/CGAA-140
+  https://ownsourcing.atlassian.net/browse/CGAA-115
+[CGAA-589] As a writer, I might also want to leave comments about the response rather than the research.
+  https://ownsourcing.atlassian.net/browse/CGAA-589
+  Is this a static title in the Discussion feature? Does it capture all of the types of coments that could be logged in this feature? Universally, it could be used by the researcher/writer/editor/manager roles for a variety of reasons.
+[CGAA-588] As a writer, I like this feature to indicate in what stage the submission is in once it's in my queue.
+  https://ownsourcing.atlassian.net/browse/CGAA-588
+  As a manager, it might be helpful to see what status are in each role on a main dashboard. Say for instance, I'd like to see which submissions all of the writers are currently working on. It'd be great to have a searchable feature in the manager's
+[CGAA-587] As a writer, I will not need to delete spam, or second a recommendation on a question.
+  https://ownsourcing.atlassian.net/browse/CGAA-587
+  Perhaps this could be made static once set by the manager? The information could be helpful to me as a writer, but I do not need to manipulate or change this information.
+[CGAA-586] As a writer, I do not need to manipulate "Scheduled to be reviewed on" or "Scheduled to be pulblished on"
+  https://ownsourcing.atlassian.net/browse/CGAA-586
+  The information might be helpful to me (to know that this is a question that I am updating by knowing the "Scheduled to be reviewed on" date) but I do not need to change or manipulate this date. It could confuse me to have it be an editable space.
+[CGAA-585] As a writer, placement of the research conclusions on the page when I open up a submission is good
+  https://ownsourcing.atlassian.net/browse/CGAA-585
+  Having it front and center first thing when I open up the submission is good. When I scroll down, I can get more specific information from the individual sources.
+[CGAA-584] As a writer, I'd like to be able to add a small amount of research to supplement the research attached to a submission.
+  https://ownsourcing.atlassian.net/browse/CGAA-584
+  Sometimes, a writer identifies a gap within the research and is able to locate reserach to inform their written response. In that case, we as the writer to submit a supplemental reserach document. In the demo version, I'm unsure where they would
+  https://ownsourcing.atlassian.net/browse/CGAA-698
+  as a developer
+  https://ownsourcing.atlassian.net/browse/CGAA-348
+  &#35; WARNING: This test adds a new question node.
+  https://ownsourcing.atlassian.net/browse/CGAA-598
+  Feature: consolidated writeups on a health topic
+  https://ownsourcing.atlassian.net/browse/CGAA-775
+  As a member of the editorial team logging into the site
+[CGAA-811] funnel user experience that avoids cul-de-sacs
+  https://ownsourcing.atlassian.net/browse/CGAA-811
+  As an anonymous user
+  https://ownsourcing.atlassian.net/browse/CGAA-345
+  As a blocked user
+  https://ownsourcing.atlassian.net/browse/CGAA-179
+  As an administrator of the Go Ask Alice website I would like to add quick quizzes to the site
+  https://ownsourcing.atlassian.net/browse/CGAA-271
+  As the legal defense team at GAA I can understand how decisions were made
+[CGAA-358] Submission needs another team member's attention
+  https://ownsourcing.atlassian.net/browse/CGAA-358
+  https://ownsourcing.atlassian.net/browse/CGAA-442
+  from demo 1 notes, not sure what this refers to
+[CGAA-399] All reader responses are linked to the Q&A
+  https://ownsourcing.atlassian.net/browse/CGAA-399
+  As a visitor to a licensee site
+[CGAA-397] Permissions on licensee sites will be the same
+  https://ownsourcing.atlassian.net/browse/CGAA-397
+  As a user of any of the licensee sites
+[CGAA-187] Site visitor can subscribe to email blast of questions
+  https://ownsourcing.atlassian.net/browse/CGAA-187
+  As a visitor to the Go Ask Alice website I would like to subscribe to an email blast of questions
+[CGAA-163] Quiz taker views their results and correct answers
+  https://ownsourcing.atlassian.net/browse/CGAA-163
+  As a quiz taker
+[CGAA-286] automate outcome of workflow transitions archive, delete
+  https://ownsourcing.atlassian.net/browse/CGAA-286
+  create story: what should/does happen when nodes are transitioned to archive/delete
+  https://ownsourcing.atlassian.net/browse/CGAA-18
+  As a manager
+[CGAA-138] Manager marks updated question as ready to publish
+  https://ownsourcing.atlassian.net/browse/CGAA-138
+  As a manager receiving an updated question
+[CGAA-11] In order to add a new question as a student I need an obvious way to ask my question
+  https://ownsourcing.atlassian.net/browse/CGAA-11
+  https://ownsourcing.atlassian.net/browse/CGAA-217
+  admin and steam

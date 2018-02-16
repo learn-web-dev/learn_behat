@@ -1,0 +1,11 @@
+# Ignore paths that contain user-generated content.
+docroot/files
+docroot/sites/*/files
+docroot/sites/*/private
+# Ignore paths that contain volatile files.
+.vagrant/
+.idea/
+/vendor/
+.DS_Store
+/z-local/
+.~*

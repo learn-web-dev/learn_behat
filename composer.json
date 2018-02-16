@@ -1,0 +1,97 @@
+{
+    "name": "drupal-composer/drupal-project",
+    "description": "Project template for Drupal 7 projects with composer",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/7"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-xml": "*",
+        "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.6",
+        "drupal-composer/preserve-paths": "^0.1",
+        "drupal/backup_migrate": "^3.5",
+        "drupal/composer_autoloader": "^1.0",
+        "drupal/drupal": "~7.0",
+        "drupal/drupal-extension": "^3.4",
+        "drupal/entityreference": "^1.5",
+        "drupal/features": "^2.10",
+        "drupal/node_export": "^3.1",
+        "drupal/strongarm": "^2.0",
+        "drupal/url": "^1.0",
+        "drush/drush": "~8.0",
+        "webflo/drupal-finder": "^1.0.0",
+        "webmozart/path-util": "^2.3"
+    },
+    "conflict": {
+        "drupal/core": "8.*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "bin/",
+        "sort-packages": true
+    },
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "scripts": {
+        "pre-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "pre-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+        ],
+        "post-install-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-create-project-cmd": [
+            "DrupalProject\\composer\\ScriptHandler::removeInternalFiles"
+        ]
+    },
+    "extra": {
+        "patches": {
+            "cweagans/composer-patches": {
+                "Call the preserve paths hooks" : "https://github.com/SebCorbin/composer-patches/commit/1cb9bacba51f8bba0c5f3f322c3bb61e4ceae974.patch"
+            }
+        },
+        "installer-paths": {
+            "docroot/": ["type:drupal-core"],
+            "docroot/profiles/{$name}/": ["type:drupal-profile"],
+            "docroot/sites/all/drush/{$name}/": ["type:drupal-drush"],
+            "docroot/sites/all/libraries/{$name}/": ["type:drupal-library"],
+            "docroot/sites/all/modules/contrib/{$name}/": ["type:drupal-module"],
+            "docroot/sites/all/themes/contrib/{$name}/": ["type:drupal-theme"]
+        },
+        "preserve-paths": [
+            "docroot/sites/all/libraries",
+            "docroot/sites/all/modules/custom",
+            "docroot/sites/all/modules/features",
+            "docroot/sites/all/themes/custom",
+            "docroot/sites/all/translations",
+            "docroot/sites/default"
+        ]
+    }
+}
